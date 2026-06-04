@@ -198,8 +198,13 @@ window.QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "长跑太极拳",
+        "text": "长跑",
         "y": 692
+      },
+      {
+        "key": "E",
+        "text": "太极拳",
+        "y": 773
       }
     ],
     "answer": [
@@ -208,7 +213,9 @@ window.QUESTIONS = [
     "explanation": "解析:您选择E,正确答案为D",
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-20-44-49-749_com.tencent.mm.jpg",
-    "warnings": []
+    "warnings": [
+      "E 选项标签由位置推断"
+    ]
   },
   {
     "id": 8,
@@ -426,8 +433,13 @@ window.QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "爱人民社会主义",
+        "text": "爱人民",
         "y": 611
+      },
+      {
+        "key": "D",
+        "text": "社会主义",
+        "y": 692
       }
     ],
     "answer": [
@@ -436,7 +448,9 @@ window.QUESTIONS = [
     "explanation": "解析:您选择D,正确答案为A",
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-20-45-19-080_com.tencent.mm.jpg",
-    "warnings": []
+    "warnings": [
+      "D 选项标签由位置推断"
+    ]
   },
   {
     "id": 15,
@@ -1096,8 +1110,13 @@ window.QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "脏乱气清亲斤",
+        "text": "脏乱",
         "y": 611
+      },
+      {
+        "key": "D",
+        "text": "空气清新",
+        "y": 692
       }
     ],
     "answer": [
@@ -1106,7 +1125,10 @@ window.QUESTIONS = [
     "explanation": "解析:您选择D,正确答案为C",
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-20-46-24-844_com.tencent.mm.jpg",
-    "warnings": []
+    "warnings": [
+      "D 选项标签由位置推断",
+      "D 选项由信息采集环境固定选项修正"
+    ]
   },
   {
     "id": 36,
@@ -3092,7 +3114,7 @@ window.QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "中广扌。又又贝",
+        "text": "中度受损",
         "y": 2892
       },
       {
@@ -3109,7 +3131,8 @@ window.QUESTIONS = [
     "sourceFile": "Screenshot_2026-06-03-20-49-37-062_com.tencent.mm.jpg",
     "warnings": [
       "D 选项标签由位置推断",
-      "答案由蓝色勾选项推断"
+      "答案由蓝色勾选项推断",
+      "C 选项由能力等级固定选项修正"
     ]
   },
   {
@@ -3230,21 +3253,21 @@ window.QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "身体上部稍前倾,臀部紧贴后靠背,当驱车运动时臀部肌肉与腹肌要收缩,有利于骨盆的固定,并能够减少臀部出现异常活动,大小腿之间的角度为",
+        "text": "身体上部稍前倾,臀部紧贴后靠背,当驱车运动时臀部肌肉与腹肌要收缩,有利于骨盆的固定,并能够减少臀部出现异常活动,大小腿之间的角度为110度到130度,以120度为最佳",
         "y": 1004
       },
       {
         "key": "C",
-        "text": "110度到130度,以120度为最佳",
-        "y": 1151
-      },
-      {
-        "key": "C",
-        "text": "有肌肉痉挛的脊髓损伤患者,需要在双膝间放置软垫,双足向前方保持平彳了",
+        "text": "有肌肉痉挛的脊髓损伤患者,需要在双膝间放置软垫,双足向前方保持平",
         "y": 1259
       },
       {
         "key": "D",
+        "text": "彳了",
+        "y": 1335
+      },
+      {
+        "key": "E",
         "text": "．上述选项全部不对",
         "y": 1451
       }
@@ -3256,8 +3279,8 @@ window.QUESTIONS = [
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-20-50-00-420_com.tencent.mm.jpg",
     "warnings": [
-      "C 选项标签由位置推断",
-      "D 选项标签由位置推断"
+      "D 选项标签由位置推断",
+      "E 选项标签由位置推断"
     ]
   },
   {
@@ -3684,8 +3707,8 @@ window.QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "选项文字未识别",
-        "y": 0
+        "text": "4",
+        "y": 1159
       },
       {
         "key": "B",
@@ -3696,6 +3719,11 @@ window.QUESTIONS = [
         "key": "C",
         "text": "10",
         "y": 1079
+      },
+      {
+        "key": "D",
+        "text": "5",
+        "y": 1239
       }
     ],
     "answer": [
@@ -3705,7 +3733,8 @@ window.QUESTIONS = [
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-20-50-35-478_com.tencent.mm.jpg",
     "warnings": [
-      "A 选项文字未识别，已保留占位"
+      "A 选项由评估二级指标数量固定选项补齐",
+      "D 选项由评估二级指标数量固定选项补齐"
     ]
   },
   {
@@ -3909,7 +3938,7 @@ window.QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "工彐/月/、",
+        "text": "空气清新",
         "y": 1071
       }
     ],
@@ -3920,7 +3949,8 @@ window.QUESTIONS = [
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-20-50-52-711_com.tencent.mm.jpg",
     "warnings": [
-      "D 选项标签由位置推断"
+      "D 选项标签由位置推断",
+      "D 选项由信息采集环境固定选项修正"
     ]
   },
   {
@@ -4506,13 +4536,8 @@ window.QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "“饮食、洗漱、穿戴、二便\"的评估结果都为可独立完成/控制,无须他人帮助。但在他人的监护、提示下,能够正确完成“购物\"、“做饭\"定义中的行为动",
+        "text": "“饮食、洗漱、穿戴、二便\"的评估结果都为可独立完成/控制,无须他人帮助。但在他人的监护、提示下,能够正确完成“购物\"、“做饭\"定义中的行为动作。",
         "y": 1121
-      },
-      {
-        "key": "B",
-        "text": "作。",
-        "y": 1269
       },
       {
         "key": "B",
@@ -4526,8 +4551,13 @@ window.QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "可以完成小金额(总额100元以下)的现金计算、管理,总额100元以上则需要依赖他人帮助。",
+        "text": "可以完成小金额(总额100元以下)的现金计算、管理,总额100元以上则",
         "y": 1625
+      },
+      {
+        "key": "E",
+        "text": "需要依赖他人帮助。",
+        "y": 1699
       }
     ],
     "answer": [
@@ -4537,7 +4567,7 @@ window.QUESTIONS = [
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-20-51-33-947_com.tencent.mm.jpg",
     "warnings": [
-      "B 选项标签由位置推断"
+      "E 选项标签由位置推断"
     ]
   },
   {
@@ -4642,14 +4672,24 @@ window.QUESTIONS = [
     "title": "老年人进行生活活动能力评估床椅转移时,轮椅脚托离地面至少()cm。",
     "options": [
       {
+        "key": "A",
+        "text": "4",
+        "y": 1159
+      },
+      {
         "key": "B",
-        "text": "选项文字未识别",
-        "y": 0
+        "text": "5",
+        "y": 1239
       },
       {
         "key": "C",
         "text": "6",
         "y": 1079
+      },
+      {
+        "key": "D",
+        "text": "7",
+        "y": 1319
       }
     ],
     "answer": [
@@ -4659,7 +4699,9 @@ window.QUESTIONS = [
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-20-51-44-121_com.tencent.mm.jpg",
     "warnings": [
-      "B 选项文字未识别，已保留占位"
+      "A 选项由床椅转移脚托高度固定选项补齐",
+      "B 选项由床椅转移脚托高度固定选项补齐",
+      "D 选项由床椅转移脚托高度固定选项补齐"
     ]
   },
   {
@@ -5520,6 +5562,11 @@ window.QUESTIONS = [
     "title": "以下不属于自理能力二级指标的选项是:0",
     "options": [
       {
+        "key": "A",
+        "text": "洗澡",
+        "y": 1395
+      },
+      {
         "key": "B",
         "text": "如厕",
         "y": 943
@@ -5547,7 +5594,9 @@ window.QUESTIONS = [
     "explanation": "解析:您选择E,正确答案为CD",
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-20-52-37-628_com.tencent.mm.jpg",
-    "warnings": []
+    "warnings": [
+      "A 选项由自理能力二级指标固定选项补齐"
+    ]
   },
   {
     "id": 168,
@@ -6675,13 +6724,8 @@ window.QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "每次至少应有2名评估人员同时开展评估工作,且至少有1人具有医学或护理",
+        "text": "每次至少应有2名评估人员同时开展评估工作,且至少有1人具有医学或护理子目宀匕",
         "y": 669
-      },
-      {
-        "key": "B",
-        "text": "子目宀匕",
-        "y": 753
       },
       {
         "key": "B",
@@ -6706,7 +6750,6 @@ window.QUESTIONS = [
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-20-54-15-761_com.tencent.mm.jpg",
     "warnings": [
-      "B 选项标签由位置推断",
       "D 选项标签由位置推断"
     ]
   },
@@ -9120,6 +9163,11 @@ window.QUESTIONS = [
     "title": "日常生活活动评估包含()个评估二级指标。",
     "options": [
       {
+        "key": "A",
+        "text": "3",
+        "y": 1159
+      },
+      {
         "key": "B",
         "text": "22",
         "y": 955
@@ -9128,6 +9176,11 @@ window.QUESTIONS = [
         "key": "C",
         "text": "10",
         "y": 1079
+      },
+      {
+        "key": "D",
+        "text": "5",
+        "y": 1239
       }
     ],
     "answer": [
@@ -9136,7 +9189,10 @@ window.QUESTIONS = [
     "explanation": "解析:您选择D,正确答案为C",
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-20-56-55-011_com.tencent.mm.jpg",
-    "warnings": []
+    "warnings": [
+      "A 选项由评估二级指标数量固定选项补齐",
+      "D 选项由评估二级指标数量固定选项补齐"
+    ]
   },
   {
     "id": 280,
@@ -10624,6 +10680,11 @@ window.QUESTIONS = [
         "key": "C",
         "text": "推拿按摩",
         "y": 1075
+      },
+      {
+        "key": "D",
+        "text": "选项文字未识别",
+        "y": 1205
       }
     ],
     "answer": [
@@ -10632,7 +10693,9 @@ window.QUESTIONS = [
     "explanation": "解析:您选择D,正确答案为A",
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-20-58-35-784_com.tencent.mm.jpg",
-    "warnings": []
+    "warnings": [
+      "D 选项文字未识别，已保留占位"
+    ]
   },
   {
     "id": 327,
@@ -11195,8 +11258,13 @@ window.QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "仪容仪态主要包括穿着、打扮、行为举止和个人卫生等方面,在着装方面应力求洁净大方",
+        "text": "仪容仪态主要包括穿着、打扮、行为举止和个人卫生等方面,在着装方面",
         "y": 1192
+      },
+      {
+        "key": "E",
+        "text": "应力求洁净大方",
+        "y": 1266
       }
     ],
     "answer": [
@@ -11206,7 +11274,8 @@ window.QUESTIONS = [
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-20-59-15-771_com.tencent.mm.jpg",
     "warnings": [
-      "题号疑似为 3"
+      "题号疑似为 3",
+      "E 选项标签由位置推断"
     ]
   },
   {
@@ -13702,13 +13771,18 @@ window.QUESTIONS = [
     "title": "根据以下描述,甲老人\"B-4社会参与评估\"结果应是0。甲老人“B一4社会参与评估\"内的二级评估项目结果如下:O.“B一4一1生活能力\":甲老人“饮食、洗漱、穿戴、二便\"的评估结果都为可独立完成/控制,但不能自己做饭,购物时需要他人结算、支付购物金额;需要他人帮助才能从货架上取下商品等。@·“B一4一2工作能力\":甲老人的表现为原来熟悉的脑力工作或体力技巧性工作明显不如以前,部分遗忘。O.\"B-4-3时间/空间定向\":甲老人时间观念清楚;可单独屮;湎兰日台乬'堂层+“一系,不会分辨陌生人的大致年龄,不能称呼陌生人。@“B一4一5社会交往能力\":甲老人能适应单纯环境,主动接触人,初见面时难让人发现智力问题,不能理解隐喻语乙/」丿」",
     "options": [
       {
+        "key": "A",
+        "text": "能力完好",
+        "y": 3058
+      },
+      {
         "key": "B",
-        "text": "轻广扌。工又又贝",
+        "text": "轻度受损",
         "y": 2740
       },
       {
         "key": "C",
-        "text": "中广扌。又又贝",
+        "text": "中度受损",
         "y": 2864
       },
       {
@@ -13724,7 +13798,10 @@ window.QUESTIONS = [
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-21-02-17-437_com.tencent.mm-edit.jpg",
     "warnings": [
-      "D 选项标签由位置推断"
+      "D 选项标签由位置推断",
+      "A 选项由能力等级固定选项补齐",
+      "B 选项由能力等级固定选项修正",
+      "C 选项由能力等级固定选项修正"
     ]
   },
   {
@@ -15064,6 +15141,11 @@ window.QUESTIONS = [
     "title": "社会参与评估中包含()个评估二级指标。",
     "options": [
       {
+        "key": "A",
+        "text": "3",
+        "y": 1159
+      },
+      {
         "key": "B",
         "text": "22",
         "y": 955
@@ -15075,8 +15157,8 @@ window.QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "选项文字未识别",
-        "y": 0
+        "text": "5",
+        "y": 1239
       }
     ],
     "answer": [
@@ -15086,7 +15168,8 @@ window.QUESTIONS = [
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-21-04-05-326_com.tencent.mm.jpg",
     "warnings": [
-      "D 选项文字未识别，已保留占位"
+      "A 选项由评估二级指标数量固定选项补齐",
+      "D 选项由评估二级指标数量固定选项补齐"
     ]
   },
   {
@@ -18072,9 +18155,24 @@ window.QUESTIONS = [
     "title": "老年人能力评估指标,一级指标共0个",
     "options": [
       {
-        "key": "C",
-        "text": "选项文字未识别",
+        "key": "A",
+        "text": "2",
         "y": 0
+      },
+      {
+        "key": "B",
+        "text": "3",
+        "y": 80
+      },
+      {
+        "key": "C",
+        "text": "4",
+        "y": 160
+      },
+      {
+        "key": "D",
+        "text": "5",
+        "y": 240
       }
     ],
     "answer": [
@@ -18085,7 +18183,10 @@ window.QUESTIONS = [
     "sourceFile": "Screenshot_2026-06-03-21-07-21-393_com.tencent.mm.jpg",
     "warnings": [
       "选项未识别",
-      "C 选项文字未识别，已保留占位"
+      "A 选项由能力评估指标数量固定选项补齐",
+      "B 选项由能力评估指标数量固定选项补齐",
+      "C 选项由能力评估指标数量固定选项补齐",
+      "D 选项由能力评估指标数量固定选项补齐"
     ]
   },
   {
@@ -21965,17 +22066,17 @@ window.QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "1分",
+        "text": "1",
         "y": 978
       },
       {
         "key": "B",
-        "text": "2分",
+        "text": "2",
         "y": 1102
       },
       {
         "key": "C",
-        "text": "5分",
+        "text": "3",
         "y": 1225
       },
       {
@@ -21990,7 +22091,11 @@ window.QUESTIONS = [
     "explanation": "解析:您选择D,正确答案为B",
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-21-13-31-770_com.tencent.mm.jpg",
-    "warnings": []
+    "warnings": [
+      "A 数字选项文字由评分题规则修正",
+      "B 数字选项文字由评分题规则修正",
+      "C 数字选项文字由评分题规则修正"
+    ]
   },
   {
     "id": 673,
@@ -22773,11 +22878,16 @@ window.QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "先按环形缠绕数圈固定,然后往上缠,前圈的1/3、2/5,由下而上缠绕即成。",
+        "text": "先按环形缠绕数圈固定,然后往上缠,前圈的1/3、2/5,由下而上缠绕即",
         "y": 917
       },
       {
         "key": "D",
+        "text": "成。",
+        "y": 991
+      },
+      {
+        "key": "E",
         "text": "在关节弯曲的上下将绷带由下而上再由上而下缠绕即成。",
         "y": 1108
       }
@@ -22789,7 +22899,8 @@ window.QUESTIONS = [
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-21-15-19-967_com.tencent.mm.jpg",
     "warnings": [
-      "D 选项标签由位置推断"
+      "D 选项标签由位置推断",
+      "E 选项标签由位置推断"
     ]
   },
   {
@@ -25262,17 +25373,22 @@ window.QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "李奶奶可判定为“5分:偶尔失控(每周<1次),或需要他人提示。",
+        "text": "李奶奶可判定为“5分:偶尔失控(每周<1次),或需要他人提示。”",
         "y": 1880
       },
       {
+        "key": "B",
+        "text": "张爷爷可判定为“5分:偶尔失控(每周<1次),或需要他人提示。”",
+        "y": 2292
+      },
+      {
         "key": "C",
-        "text": "李奶奶可判定为“5分:偶尔失控(每周<1次),或需要他人提示'且张爷爷可判定“5分:偶尔失控(每周<1次),或需要他人提示",
+        "text": "李奶奶可判定为“5分:偶尔失控(每周<1次),或需要他人提示”且张爷爷可判定“5分:偶尔失控(每周<1次),或需要他人提示”",
         "y": 2028
       },
       {
         "key": "D",
-        "text": "李奶奶可判定为“5分:偶尔失控(每周<1次),或需要他人提示\"或张爷爷可判定“5分:偶尔失控(每周<1次),或需要他人提示。",
+        "text": "李奶奶可判定为“5分:偶尔失控(每周<1次),或需要他人提示”或张爷爷可判定“5分:偶尔失控(每周<1次),或需要他人提示”。",
         "y": 2212
       }
     ],
@@ -25282,7 +25398,12 @@ window.QUESTIONS = [
     "explanation": "解析:正确答案为D",
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-21-20-45-523_com.tencent.mm.jpg",
-    "warnings": []
+    "warnings": [
+      "A 选项由大便控制案例固定选项修正",
+      "B 选项由大便控制案例固定选项补齐",
+      "C 选项由大便控制案例固定选项修正",
+      "D 选项由大便控制案例固定选项修正"
+    ]
   },
   {
     "id": 773,
@@ -25362,9 +25483,24 @@ window.QUESTIONS = [
     "title": "老年社会学将老年人群体分为()",
     "options": [
       {
-        "key": "B",
-        "text": "选项文字未识别",
+        "key": "A",
+        "text": "2",
         "y": 0
+      },
+      {
+        "key": "B",
+        "text": "3",
+        "y": 80
+      },
+      {
+        "key": "C",
+        "text": "4",
+        "y": 160
+      },
+      {
+        "key": "D",
+        "text": "5",
+        "y": 240
       }
     ],
     "answer": [
@@ -25375,7 +25511,10 @@ window.QUESTIONS = [
     "sourceFile": "Screenshot_2026-06-03-21-21-00-825_com.tencent.mm.jpg",
     "warnings": [
       "选项未识别",
-      "B 选项文字未识别，已保留占位"
+      "A 选项由老年社会学分组数量固定选项补齐",
+      "B 选项由老年社会学分组数量固定选项补齐",
+      "C 选项由老年社会学分组数量固定选项补齐",
+      "D 选项由老年社会学分组数量固定选项补齐"
     ]
   },
   {
@@ -26363,6 +26502,11 @@ window.QUESTIONS = [
     "title": "感知觉与社会参与评估中包含0个评估二级指标",
     "options": [
       {
+        "key": "A",
+        "text": "3",
+        "y": 1159
+      },
+      {
         "key": "B",
         "text": "22",
         "y": 955
@@ -26374,8 +26518,8 @@ window.QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "选项文字未识别",
-        "y": 0
+        "text": "5",
+        "y": 1239
       }
     ],
     "answer": [
@@ -26385,7 +26529,8 @@ window.QUESTIONS = [
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-21-22-04-248_com.tencent.mm.jpg",
     "warnings": [
-      "D 选项文字未识别，已保留占位"
+      "A 选项由评估二级指标数量固定选项补齐",
+      "D 选项由评估二级指标数量固定选项补齐"
     ]
   },
   {
@@ -27595,6 +27740,11 @@ window.QUESTIONS = [
     "title": "感知觉与社会参与评估中包含0个评估二级指标",
     "options": [
       {
+        "key": "A",
+        "text": "3",
+        "y": 1159
+      },
+      {
         "key": "B",
         "text": "22",
         "y": 955
@@ -27606,8 +27756,8 @@ window.QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "选项文字未识别",
-        "y": 0
+        "text": "5",
+        "y": 1239
       }
     ],
     "answer": [
@@ -27617,7 +27767,8 @@ window.QUESTIONS = [
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-21-23-18-011_com.tencent.mm.jpg",
     "warnings": [
-      "D 选项文字未识别，已保留占位"
+      "A 选项由评估二级指标数量固定选项补齐",
+      "D 选项由评估二级指标数量固定选项补齐"
     ]
   },
   {
@@ -28459,7 +28610,12 @@ window.QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "选项文字未识别",
+        "text": "4",
+        "y": 0
+      },
+      {
+        "key": "B",
+        "text": "3",
         "y": 0
       },
       {
@@ -28469,7 +28625,7 @@ window.QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "O领",
+        "text": "1",
         "y": 1164
       }
     ],
@@ -28481,7 +28637,9 @@ window.QUESTIONS = [
     "sourceFile": "Screenshot_2026-06-03-21-24-19-970_com.tencent.mm.jpg",
     "warnings": [
       "D 选项标签由位置推断",
-      "A 选项文字未识别，已保留占位"
+      "A 数字选项由评分题规则补齐",
+      "B 数字选项由评分题规则补齐",
+      "D 数字选项文字由评分题规则修正"
     ]
   },
   {
@@ -30397,7 +30555,7 @@ window.QUESTIONS = [
       {
         "key": "C",
         "text": "选项文字未识别",
-        "y": 0
+        "y": 1230
       },
       {
         "key": "D",
@@ -30572,6 +30730,11 @@ window.QUESTIONS = [
     "title": "9弱、以下不属于自理能力二级指标的选项是:0",
     "options": [
       {
+        "key": "A",
+        "text": "洗澡",
+        "y": 1395
+      },
+      {
         "key": "B",
         "text": "如厕",
         "y": 943
@@ -30599,7 +30762,9 @@ window.QUESTIONS = [
     "explanation": "解析:您选择E,正确答案为CD",
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-21-26-33-070_com.tencent.mm.jpg",
-    "warnings": []
+    "warnings": [
+      "A 选项由自理能力二级指标固定选项补齐"
+    ]
   },
   {
     "id": 934,
@@ -31457,13 +31622,23 @@ window.QUESTIONS = [
     "title": "个人基本生活事物(如饮食、大小便)完全依赖他人,自理能力评定为:0",
     "options": [
       {
+        "key": "A",
+        "text": "1",
+        "y": 1244
+      },
+      {
+        "key": "B",
+        "text": "2",
+        "y": 1324
+      },
+      {
         "key": "C",
         "text": "3",
         "y": 1079
       },
       {
         "key": "D",
-        "text": "O“",
+        "text": "0",
         "y": 1164
       }
     ],
@@ -31474,7 +31649,10 @@ window.QUESTIONS = [
     "sourceImage": "",
     "sourceFile": "Screenshot_2026-06-03-21-27-26-621_com.tencent.mm.jpg",
     "warnings": [
-      "D 选项标签由位置推断"
+      "D 选项标签由位置推断",
+      "A 选项由自理能力评分固定选项补齐",
+      "B 选项由自理能力评分固定选项补齐",
+      "D 选项由自理能力评分固定选项修正"
     ]
   },
   {
@@ -31605,8 +31783,8 @@ window.QUESTIONS = [
 ];
 window.QUESTION_BUILD_REPORT = {
   "total": 964,
-  "generatedAt": "2026-06-03T15:39:36.341Z",
-  "warningCount": 459,
+  "generatedAt": "2026-06-04T03:19:49.612Z",
+  "warningCount": 498,
   "warnings": [
     {
       "id": 3,
@@ -31615,6 +31793,10 @@ window.QUESTION_BUILD_REPORT = {
     {
       "id": 3,
       "warning": "C 数字选项由评分题规则补齐"
+    },
+    {
+      "id": 7,
+      "warning": "E 选项标签由位置推断"
     },
     {
       "id": 8,
@@ -31635,6 +31817,10 @@ window.QUESTION_BUILD_REPORT = {
     {
       "id": 8,
       "warning": "D 数字选项由评分题规则补齐"
+    },
+    {
+      "id": 14,
+      "warning": "D 选项标签由位置推断"
     },
     {
       "id": 23,
@@ -31659,6 +31845,14 @@ window.QUESTION_BUILD_REPORT = {
     {
       "id": 34,
       "warning": "D 数字选项由评分题规则补齐"
+    },
+    {
+      "id": 35,
+      "warning": "D 选项标签由位置推断"
+    },
+    {
+      "id": 35,
+      "warning": "D 选项由信息采集环境固定选项修正"
     },
     {
       "id": 47,
@@ -31729,6 +31923,10 @@ window.QUESTION_BUILD_REPORT = {
       "warning": "答案由蓝色勾选项推断"
     },
     {
+      "id": 94,
+      "warning": "C 选项由能力等级固定选项修正"
+    },
+    {
       "id": 95,
       "warning": "D 选项标签由位置推断"
     },
@@ -31738,11 +31936,11 @@ window.QUESTION_BUILD_REPORT = {
     },
     {
       "id": 98,
-      "warning": "C 选项标签由位置推断"
+      "warning": "D 选项标签由位置推断"
     },
     {
       "id": 98,
-      "warning": "D 选项标签由位置推断"
+      "warning": "E 选项标签由位置推断"
     },
     {
       "id": 103,
@@ -31758,7 +31956,11 @@ window.QUESTION_BUILD_REPORT = {
     },
     {
       "id": 112,
-      "warning": "A 选项文字未识别，已保留占位"
+      "warning": "A 选项由评估二级指标数量固定选项补齐"
+    },
+    {
+      "id": 112,
+      "warning": "D 选项由评估二级指标数量固定选项补齐"
     },
     {
       "id": 116,
@@ -31775,6 +31977,10 @@ window.QUESTION_BUILD_REPORT = {
     {
       "id": 119,
       "warning": "D 选项标签由位置推断"
+    },
+    {
+      "id": 119,
+      "warning": "D 选项由信息采集环境固定选项修正"
     },
     {
       "id": 121,
@@ -31818,7 +32024,7 @@ window.QUESTION_BUILD_REPORT = {
     },
     {
       "id": 137,
-      "warning": "B 选项标签由位置推断"
+      "warning": "E 选项标签由位置推断"
     },
     {
       "id": 138,
@@ -31830,7 +32036,15 @@ window.QUESTION_BUILD_REPORT = {
     },
     {
       "id": 141,
-      "warning": "B 选项文字未识别，已保留占位"
+      "warning": "A 选项由床椅转移脚托高度固定选项补齐"
+    },
+    {
+      "id": 141,
+      "warning": "B 选项由床椅转移脚托高度固定选项补齐"
+    },
+    {
+      "id": 141,
+      "warning": "D 选项由床椅转移脚托高度固定选项补齐"
     },
     {
       "id": 142,
@@ -31887,6 +32101,10 @@ window.QUESTION_BUILD_REPORT = {
     {
       "id": 165,
       "warning": "D 选项标签由位置推断"
+    },
+    {
+      "id": 167,
+      "warning": "A 选项由自理能力二级指标固定选项补齐"
     },
     {
       "id": 169,
@@ -31959,10 +32177,6 @@ window.QUESTION_BUILD_REPORT = {
     {
       "id": 200,
       "warning": "D 选项标签由位置推断"
-    },
-    {
-      "id": 202,
-      "warning": "B 选项标签由位置推断"
     },
     {
       "id": 202,
@@ -32125,6 +32339,14 @@ window.QUESTION_BUILD_REPORT = {
       "warning": "D 选项标签由位置推断"
     },
     {
+      "id": 279,
+      "warning": "A 选项由评估二级指标数量固定选项补齐"
+    },
+    {
+      "id": 279,
+      "warning": "D 选项由评估二级指标数量固定选项补齐"
+    },
+    {
       "id": 280,
       "warning": "D 选项标签由位置推断"
     },
@@ -32213,6 +32435,10 @@ window.QUESTION_BUILD_REPORT = {
       "warning": "D 选项标签由位置推断"
     },
     {
+      "id": 326,
+      "warning": "D 选项文字未识别，已保留占位"
+    },
+    {
       "id": 327,
       "warning": "D 选项标签由位置推断"
     },
@@ -32279,6 +32505,10 @@ window.QUESTION_BUILD_REPORT = {
     {
       "id": 343,
       "warning": "题号疑似为 3"
+    },
+    {
+      "id": 343,
+      "warning": "E 选项标签由位置推断"
     },
     {
       "id": 344,
@@ -32417,6 +32647,18 @@ window.QUESTION_BUILD_REPORT = {
       "warning": "D 选项标签由位置推断"
     },
     {
+      "id": 422,
+      "warning": "A 选项由能力等级固定选项补齐"
+    },
+    {
+      "id": 422,
+      "warning": "B 选项由能力等级固定选项修正"
+    },
+    {
+      "id": 422,
+      "warning": "C 选项由能力等级固定选项修正"
+    },
+    {
       "id": 423,
       "warning": "D 选项标签由位置推断"
     },
@@ -32482,7 +32724,11 @@ window.QUESTION_BUILD_REPORT = {
     },
     {
       "id": 464,
-      "warning": "D 选项文字未识别，已保留占位"
+      "warning": "A 选项由评估二级指标数量固定选项补齐"
+    },
+    {
+      "id": 464,
+      "warning": "D 选项由评估二级指标数量固定选项补齐"
     },
     {
       "id": 465,
@@ -32670,7 +32916,19 @@ window.QUESTION_BUILD_REPORT = {
     },
     {
       "id": 555,
-      "warning": "C 选项文字未识别，已保留占位"
+      "warning": "A 选项由能力评估指标数量固定选项补齐"
+    },
+    {
+      "id": 555,
+      "warning": "B 选项由能力评估指标数量固定选项补齐"
+    },
+    {
+      "id": 555,
+      "warning": "C 选项由能力评估指标数量固定选项补齐"
+    },
+    {
+      "id": 555,
+      "warning": "D 选项由能力评估指标数量固定选项补齐"
     },
     {
       "id": 556,
@@ -32913,6 +33171,18 @@ window.QUESTION_BUILD_REPORT = {
       "warning": "D 选项标签由位置推断"
     },
     {
+      "id": 672,
+      "warning": "A 数字选项文字由评分题规则修正"
+    },
+    {
+      "id": 672,
+      "warning": "B 数字选项文字由评分题规则修正"
+    },
+    {
+      "id": 672,
+      "warning": "C 数字选项文字由评分题规则修正"
+    },
+    {
       "id": 673,
       "warning": "D 选项标签由位置推断"
     },
@@ -32951,6 +33221,10 @@ window.QUESTION_BUILD_REPORT = {
     {
       "id": 696,
       "warning": "D 选项标签由位置推断"
+    },
+    {
+      "id": 696,
+      "warning": "E 选项标签由位置推断"
     },
     {
       "id": 698,
@@ -33081,6 +33355,22 @@ window.QUESTION_BUILD_REPORT = {
       "warning": "D 选项标签由位置推断"
     },
     {
+      "id": 772,
+      "warning": "A 选项由大便控制案例固定选项修正"
+    },
+    {
+      "id": 772,
+      "warning": "B 选项由大便控制案例固定选项补齐"
+    },
+    {
+      "id": 772,
+      "warning": "C 选项由大便控制案例固定选项修正"
+    },
+    {
+      "id": 772,
+      "warning": "D 选项由大便控制案例固定选项修正"
+    },
+    {
       "id": 773,
       "warning": "D 选项标签由位置推断"
     },
@@ -33094,7 +33384,19 @@ window.QUESTION_BUILD_REPORT = {
     },
     {
       "id": 775,
-      "warning": "B 选项文字未识别，已保留占位"
+      "warning": "A 选项由老年社会学分组数量固定选项补齐"
+    },
+    {
+      "id": 775,
+      "warning": "B 选项由老年社会学分组数量固定选项补齐"
+    },
+    {
+      "id": 775,
+      "warning": "C 选项由老年社会学分组数量固定选项补齐"
+    },
+    {
+      "id": 775,
+      "warning": "D 选项由老年社会学分组数量固定选项补齐"
     },
     {
       "id": 778,
@@ -33150,7 +33452,11 @@ window.QUESTION_BUILD_REPORT = {
     },
     {
       "id": 806,
-      "warning": "D 选项文字未识别，已保留占位"
+      "warning": "A 选项由评估二级指标数量固定选项补齐"
+    },
+    {
+      "id": 806,
+      "warning": "D 选项由评估二级指标数量固定选项补齐"
     },
     {
       "id": 807,
@@ -33230,7 +33536,11 @@ window.QUESTION_BUILD_REPORT = {
     },
     {
       "id": 842,
-      "warning": "D 选项文字未识别，已保留占位"
+      "warning": "A 选项由评估二级指标数量固定选项补齐"
+    },
+    {
+      "id": 842,
+      "warning": "D 选项由评估二级指标数量固定选项补齐"
     },
     {
       "id": 844,
@@ -33274,7 +33584,15 @@ window.QUESTION_BUILD_REPORT = {
     },
     {
       "id": 870,
-      "warning": "A 选项文字未识别，已保留占位"
+      "warning": "A 数字选项由评分题规则补齐"
+    },
+    {
+      "id": 870,
+      "warning": "B 数字选项由评分题规则补齐"
+    },
+    {
+      "id": 870,
+      "warning": "D 数字选项文字由评分题规则修正"
     },
     {
       "id": 871,
@@ -33377,6 +33695,10 @@ window.QUESTION_BUILD_REPORT = {
       "warning": "D 选项标签由位置推断"
     },
     {
+      "id": 933,
+      "warning": "A 选项由自理能力二级指标固定选项补齐"
+    },
+    {
       "id": 934,
       "warning": "题号疑似为 954"
     },
@@ -33439,6 +33761,18 @@ window.QUESTION_BUILD_REPORT = {
     {
       "id": 960,
       "warning": "D 选项标签由位置推断"
+    },
+    {
+      "id": 960,
+      "warning": "A 选项由自理能力评分固定选项补齐"
+    },
+    {
+      "id": 960,
+      "warning": "B 选项由自理能力评分固定选项补齐"
+    },
+    {
+      "id": 960,
+      "warning": "D 选项由自理能力评分固定选项修正"
     },
     {
       "id": 963,

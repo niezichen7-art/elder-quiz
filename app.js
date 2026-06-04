@@ -35,6 +35,7 @@
     resultText: document.getElementById("resultText"),
     answerText: document.getElementById("answerText"),
     explanationText: document.getElementById("explanationText"),
+    resultNextBtn: document.getElementById("resultNextBtn"),
     warningPanel: document.getElementById("warningPanel"),
     wrongList: document.getElementById("wrongList"),
     sourceDialog: document.getElementById("sourceDialog"),
@@ -181,6 +182,8 @@
       label.append(input, text);
       els.answerForm.append(label);
     }
+
+    updateActionState(question);
   }
 
   function renderResult(question) {
@@ -191,6 +194,7 @@
       els.resultText.textContent = "";
       els.answerText.textContent = "";
       els.explanationText.textContent = "";
+      els.resultNextBtn.hidden = true;
       return;
     }
 
@@ -199,6 +203,38 @@
     els.resultText.textContent = record.correct ? "回答正确" : "回答错误";
     els.answerText.textContent = `正确答案：${formatAnswer(question)}`;
     els.explanationText.textContent = question.explanation || "";
+    els.resultNextBtn.hidden = false;
+  }
+
+  function updateActionState(question) {
+    const selected = selectedValues();
+    const hasSelection = selected.length > 0;
+    const record = question ? state.answers[question.id] : null;
+    els.submitBtn.disabled = !hasSelection;
+    els.clearBtn.disabled = !hasSelection;
+    els.submitBtn.textContent = record ? "重新提交答案" : "提交答案";
+  }
+
+  function handleAnswerChange() {
+    const question = currentQuestion();
+    if (!question) return;
+    updateActionState(question);
+
+    const record = state.answers[question.id];
+    if (!record) return;
+
+    const selected = selectedValues();
+    if (sameAnswer(selected, record.selected || [])) {
+      renderResult(question);
+      return;
+    }
+
+    els.resultPanel.hidden = false;
+    els.resultPanel.className = "result-panel pending";
+    els.resultText.textContent = "已修改选择";
+    els.answerText.textContent = "重新提交后更新判定";
+    els.explanationText.textContent = "";
+    els.resultNextBtn.hidden = true;
   }
 
   function renderWarnings(question) {
@@ -280,6 +316,7 @@
     const question = currentQuestion();
     if (!question) return;
     const selected = selectedValues();
+    if (!selected.length) return;
     const correct = sameAnswer(selected, question.answer || []);
     state.answers[question.id] = {
       selected,
@@ -294,6 +331,7 @@
     for (const input of els.answerForm.querySelectorAll("input")) {
       input.checked = false;
     }
+    handleAnswerChange();
   }
 
   function resetProgress() {
@@ -339,6 +377,8 @@
   els.randomBtn.addEventListener("click", goRandom);
   els.submitBtn.addEventListener("click", submitCurrent);
   els.clearBtn.addEventListener("click", clearSelection);
+  els.resultNextBtn.addEventListener("click", () => goByOffset(1));
+  els.answerForm.addEventListener("change", handleAnswerChange);
   els.resetBtn.addEventListener("click", resetProgress);
 
   els.sourceBtn.addEventListener("click", () => {
